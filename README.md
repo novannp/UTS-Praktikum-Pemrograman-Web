@@ -45,7 +45,7 @@ Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan m
 ### Pengumpulan Project UTS :
 
 -   Buat repository baru di ***GitHub/Gitlab*** dengan nama ***NIM_Nama_Kelas*** (contoh: 1906038_Novan_A ) untuk menyimpan *source code* praktikum ini. **(wajib menggunakan akun pribadi)**
--   Unggah semua file (PHP + HTML, CSS, Export Database) yang Anda buat ke dalam repository tersebut.
+-   Unggah semua file (PHP + HTML, CSS, Export Database, dan Screenshot form) yang Anda buat ke dalam repository tersebut.
 -   Kirim link repository ***GitHub/Gitlab*** Anda sebagai pengumpulan tugas Project UTS.
 
 ### Catatan:
