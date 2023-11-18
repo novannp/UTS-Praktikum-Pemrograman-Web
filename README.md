@@ -21,7 +21,7 @@ Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan m
 
 3. **Buatlah Formulir PHP HTML:**
     - Buatlah sebuah halaman HTML dengan nama `index.php`.
-    - Buatlah form untuk mengumpulkan data inputan minimal terdiri dari inputan dengan type input yang berbeda-beda minimal 3 tipe. Contoh `text|password|datetime|number|dan lain-lain`.
+    - Buatlah form untuk mengumpulkan data inputan minimal terdiri dari inputan dengan type input yang berbeda-beda minimal 4 tipe. Contoh `text|password|datetime|number|dan lain-lain`.
     - Tambahkan validasi pada form untuk menentukan suatu inputan wajib diisi atau opsional ataupun jumlah karakter minimum dan lain sebagainya sebelum formulir dapat dikirimkan.
 
 4. **Menulis Kode Pemrosesan Data:**
