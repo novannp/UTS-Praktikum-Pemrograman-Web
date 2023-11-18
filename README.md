@@ -1,10 +1,10 @@
+
 ## UTS Praktikum WEB: Pembuatan Formulir Input dengan PHP dan MySQL
 
 ---
 
 ### Deskripsi Project UTS:
-
-Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan menggunakan HTML dan PHP untuk mengumpulkan data mahasiswa. Data yang dimasukkan melalui formulir akan disimpan ke dalam database MySQL. Tujuan dari uts ini adalah memahami dasar-dasar pemrograman web, koneksi database, dan penggunaan formulir HTML.
+Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan menggunakan HTML dan PHP untuk mengumpulkan data mahasiswa. Data yang dimasukkan melalui formulir akan disimpan ke dalam database MySQL. Tujuan dari UTS ini adalah memahami dasar-dasar pemrograman web, koneksi database, dan penggunaan formulir HTML.
 
 ### Langkah-langkah Pengerjaan:
 
@@ -14,54 +14,50 @@ Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan m
     - Pastikan server database MySQL sudah berjalan.
 
 2. **Buat Database dan Tabel:**
+    - Buatlah sebuah database MySQL dengan format `nim_namadepan` (tanpa spasi).
+    - Buatlah tabel dengan `nama_tabel_bebas` sesuai dengan judul project yang telah ditentukan, minimal terdiri dari 5 buah kolom (*field*) dengan ketentuan atau contoh sebagai berikut:
+        - Wajib memiliki kolom id yang bersifat ***primary key*** dan juga ***auto increment***
+        - Selain kolom id, silahkan tambahkan sesuai studi kasus Anda dan pastikan tipe data yang digunakan sesuai dengan kebutuhan.
 
-    - Buat sebuah database MySQL dengan format `npm_namadepan` (tanpa spasi).
-    - Buat tabel dengan `nama tabel bebas` sesuai dengan judul project yang telah ditentukan, minimal terdiri dari 5 kolom (field) dengan ketentuan sebagai berikut:
-        - `id` (integer, auto increment, primary key)
-        - `nama_kolom_bebas` (tipe_data_bebas)
-        - `nama_kolom_bebas` (tipe_data_bebas)
-        - `nama_kolom_bebas` (tipe_data_bebas)
-        - `nama_kolom_bebas` (tipe_data_bebas)
+3. **Buatlah Formulir PHP HTML:**
+    - Buatlah sebuah halaman HTML dengan nama `index.php`.
+    - Buatlah form untuk mengumpulkan data inputan minimal terdiri dari inputan dengan type input yang berbeda-beda minimal 3 tipe. Contoh `text|password|datetime|number|dan lain-lain`.
+    - Tambahkan validasi pada form untuk menentukan suatu inputan wajib diisi atau opsional ataupun jumlah karakter minimum dan lain sebagainya sebelum formulir dapat dikirimkan.
 
-3. **Buat Formulir PHP HTML:**
-
-    - Buat sebuah halaman HTML dengan nama `index.php`.
-    - Buat form untuk mengumpulkan data inputan minimal terdiri dari 4 inputan dengan type input yang berbeda. Contoh `<input type='...'>`.
-    - Tambahkan validasi pada form untuk memastikan semua input wajib diisi sebelum formulir dapat dikirimkan.
-
-4. **Buat Skrip PHP untuk Memproses Formulir:**
-
+4. **Menulis Kode Pemrosesan Data:**
+    - Pastikan proses input ditulis menggunakan kode php.
     - Buat file PHP dengan nama `proses_input.php`.
-    - Buat koneksi ke database MySQL dan pastikan Anda mengganti pengaturan koneksi sesuai dengan pengaturan database Anda.
-    - Ambil data dari formulir yang dikirimkan.
-    - Simpan data tersebut ke dalam database yang telah anda buat sebelumnnya.
+    - Buat koneksi ke MySQL Server dan pastikan Anda mengganti pengaturan koneksi sesuai dengan pengaturan database Anda.
+    - Simpan data yang ditampung pada formulir ke dalam database yang telah anda buat sebelumnnya.
 
-5. **Tambahkan Styling CSS pada Formulir (Opsional)**
-
--   Jika Anda menambahkan formulir baru, Anda juga dapat menyesuaikan tampilan formulir tersebut dengan menambahkan CSS ke file `style.css`.
--   Sesuaikan desain formulir agar sesuai dengan tema dan tujuan formulir tersebut.
+5. **Tambahkan Styling CSS pada Formulir (Nilai tambah/opsional)**
+	-   Jika Anda ingin mempercantik tampilan form , Anda  dapat menyesuaikan tampilan formulir tersebut dengan menambahkan CSS ke file `style.css`.
+	-   Sesuaikan desain formulir agar menarik dan sesuai dengan tema dan tujuan formulir tersebut.
 
 6. **Uji Coba:**
-
     - Pastikan server web lokal anda berjalan.
     - Buka browser dan akses `http://localhost/nama_folder/index.php` untuk melihat formulir input.
-    - Isi formulir dengan data yang sesuai dan klik tombol "simpan".
+    - Isi formulir dengan data yang sesuai dan klik tombol "Simpan" atau "Save" (sesuai dengan yang dibuat).
     - Pastikan formulir berfungsi dengan baik tanpa ada error.
     - Pastikan data berhasil disimpan ke dalam database MySQL.
-    - Selelah dilakukan ujicoba silahkan backup database anda.
+    - Setelah dilakukan uji coba dan berhasil silahkan lakukan export database anda menggunakan ***phpmyadmin***. **(format file *.sql)**
 
 ### Pengumpulan Project UTS :
 
--   Buat repository baru di `GitHub` untuk menyimpan source code praktikum ini.
--   Unggah semua file (PHP HTML, CSS, Backup Database) yang Anda buat ke repository tersebut.
--   Kirim link repository GitHub Anda sebagai pengumpulan tugas Project UTS.
+-   Buat repository baru di ***GitHub/Gitlab*** dengan nama ***NIM_Nama_Kelas*** (contoh: 1906038_Novan_A ) untuk menyimpan *source code* praktikum ini. **(wajib menggunakan akun pribadi)**
+-   Unggah semua file (PHP + HTML, CSS, Export Database) yang Anda buat ke dalam repository tersebut.
+-   Kirim link repository ***GitHub/Gitlab*** Anda sebagai pengumpulan tugas Project UTS.
 
 ### Catatan:
 
--   Project UTS ini memberikan kebebasan kepada mahasiswa untuk merancang formulir sesuai dengan preferensi pribadi.
--   Untuk menjaga integritas pastikan bahwa setiap mahasiswa membuat form-input dengan _`judul project yang berbeda`_. Contoh judul form (Form Pendaftaran Pasien Rumas Sakit, Form Pendaftaran Mahaisswa, dll)
--   Penambahan desain dengan CSS bersifat opsional, namun kami menyarankan Anda untuk mengeksplorasi dan meningkatkan tampilan formulir sesuai dengan preferensi dan kreativitas Anda.
+-   Project UTS ini memberikan kebebasan kepada mahasiswa untuk merancang formulir sesuai dengan preferensi pribadi atau studi kasus.
+-   Untuk menjaga integritas pastikan bahwa setiap mahasiswa membuat form-input dengan `judul project` yang berbeda. **Contoh:** Form Pendaftaran Pasien Rumas Sakit, Form Pendaftaran Mahaisswa, dll.
+-   Penambahan desain dengan CSS bersifat opsional, namun kami menyarankan Anda untuk mengeksplorasi dan meningkatkan tampilan formulir sesuai dengan preferensi dan kreativitas Anda sehingga menjadi pertimbangan juga untuk penilaian.
+- **Dilarang menggunakan project yang sudah ada sebelumnya atau pada saat praktikum**
+- **Dilarang menggunakan project orang lain.**
+- **Dilarang reusable project teman Anda.**
+- **Jika ditemukan kecurangan atau plagiasi, nilai UTS otomatis mendapatkan score 40**
 
 ---
 
-Jika ada instruksi yang tidak sepenuhnya dipahami, silakan ajukan pertanyaan melalui `grup whatsapp` yang disediakan. Instruktur atau asisten praktikum akan membantu anda menjelaskan konsep atau memberikan bimbingan tambahan.
+Jika ada instruksi yang tidak sepenuhnya dipahami, silakan ajukan pertanyaan melalui `Grup WhatsApp` yang disediakan atau bisa menghubungi Asisten dan Instruktur.
