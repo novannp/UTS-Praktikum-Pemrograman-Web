@@ -16,7 +16,7 @@ Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan m
 2. **Buat Database dan Tabel:**
     - Buatlah sebuah database MySQL dengan format `nim_namadepan` (tanpa spasi).
     - Buatlah tabel dengan `nama_tabel_bebas` sesuai dengan judul project yang telah ditentukan, minimal terdiri dari 5 buah kolom (*field*) dengan ketentuan atau contoh sebagai berikut:
-        - Wajib memiliki kolom id yang bersifat ***primary key*** dan juga ***auto increment***
+        - Wajib memiliki kolom id / sesuai kasus Anda sebagai ***primary key*** dan juga ***auto increment***
         - Selain kolom id, silahkan tambahkan sesuai studi kasus Anda dan pastikan tipe data yang digunakan sesuai dengan kebutuhan.
 
 3. **Buatlah Formulir PHP HTML:**
