@@ -37,7 +37,7 @@ Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan m
 6. **Uji Coba:**
     - Pastikan server web lokal anda berjalan.
     - Buka browser dan akses `http://localhost/nama_folder/index.php` untuk melihat formulir input.
-    - Isi formulir dengan data yang sesuai dan klik tombol "Simpan" atau "Save" (sesuai dengan yang dibuat).
+    - Isi formulir dengan data yang sesuai dan klik tombol "Simpan", "Tambahkan", atau "Save" (sesuai dengan yang dibuat).
     - Pastikan formulir berfungsi dengan baik tanpa ada error.
     - Pastikan data berhasil disimpan ke dalam database MySQL.
     - Setelah dilakukan uji coba dan berhasil silahkan lakukan export database anda menggunakan ***phpmyadmin***. **(format file *.sql)**
