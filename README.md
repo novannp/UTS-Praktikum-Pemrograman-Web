@@ -58,7 +58,7 @@ Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan m
 - **Dilarang reusable project teman Anda.**
 - **Jika ditemukan kecurangan atau plagiasi, nilai UTS otomatis mendapatkan score 40**
 - **Dilarang membagikan soal ini kepada kelas yang belum melaksanakan UTS**
-
+- **Bagi yang terlambat mengumpulkan, maka tidak akan dianggap hadir**
 ---
 
 Jika ada instruksi yang tidak sepenuhnya dipahami, silakan ajukan pertanyaan melalui `Grup WhatsApp` yang disediakan atau bisa menghubungi Asisten dan Instruktur.
