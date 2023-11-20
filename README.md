@@ -4,7 +4,7 @@
 ---
 
 ### Deskripsi Project UTS:
-Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan menggunakan HTML dan PHP untuk mengumpulkan data mahasiswa. Data yang dimasukkan melalui formulir akan disimpan ke dalam database MySQL. Tujuan dari UTS ini adalah memahami dasar-dasar pemrograman web, koneksi database, dan penggunaan formulir HTML.
+Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan menggunakan HTML dan PHP untuk mengumpulkan data mahasiswa. Data yang dimasukkan melalui formulir akan disimpan ke dalam database menggunakan MySQL. Tujuan dari UTS ini adalah memahami dasar-dasar pemrograman web, koneksi database, dan penggunaan formulir HTML.
 
 ### Langkah-langkah Pengerjaan:
 
