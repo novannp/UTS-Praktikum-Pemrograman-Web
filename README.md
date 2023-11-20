@@ -51,7 +51,7 @@ Pada project UTS ini, Anda akan membuat sebuah formulir input sederhana dengan m
 ### Catatan:
 
 -   Project UTS ini memberikan kebebasan kepada mahasiswa untuk merancang formulir sesuai dengan preferensi pribadi atau studi kasus tertentu.
--   Untuk menjaga integritas pastikan bahwa setiap mahasiswa membuat form-input dengan `judul project` yang berbeda. **Contoh:** Form Pendaftaran Pasien Rumas Sakit, Form Pendaftaran Mahaisiswa, dll.
+-   Untuk menjaga integritas pastikan bahwa setiap mahasiswa membuat form-input dengan `judul project` yang berbeda. **Contoh:** Form Pendaftaran Pasien Rumas Sakit, Form Pendaftaran Mahasiswa, dll.
 -   Penambahan desain dengan CSS bersifat opsional, namun kami menyarankan Anda untuk mengeksplorasi dan meningkatkan tampilan formulir sesuai dengan preferensi dan kreativitas Anda sehingga menjadi pertimbangan juga untuk penilaian.
 - **Dilarang menggunakan project yang sudah ada sebelumnya atau pada saat praktikum**
 - **Dilarang menggunakan project orang lain.**
